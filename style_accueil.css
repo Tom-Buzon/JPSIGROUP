@@ -1,0 +1,108 @@
+body
+{
+	margin:0px;
+	background-image: url("./images/milky-way-1023340_960_720.webp");
+	background-repeat:no-repeat;
+	background-size:100% 250%;
+}
+
+.header
+{
+	display:flex;
+	background-image: url("./images/header_bg.jpg");
+	width:100%;
+	height:100px;
+	flex-direction:row;
+	text-align:center;
+}
+
+
+
+h3
+{
+	color:white;
+}
+		.titrenavbar
+		{
+			flex-basis:85%;
+			margin-left:250px;
+			
+		}
+		
+		.logo
+		{
+			display:block;
+			width:200px;
+			justify-content:center;
+			align-self:end;
+			border-radius:10px;
+			margin-right:50px;
+			margin-bottom:8px;
+			background-color:white;
+		}
+		
+@media all and (max-width: 680px)
+	{
+		.titrenavbar
+		{
+			display:none;
+			margin-left:0px;
+		}
+		.logo
+		{
+		
+			width:200px;
+			border-radius:10px;
+			margin:auto;
+			
+		}
+	}
+		
+.contenu
+{
+	display:flex;
+	flex-direction:column;
+
+	
+}
+	.presentation
+	{
+		
+		text-align:center;
+		margin-top:10%;
+	}
+		
+		.accueil1
+		{
+			display: flex;
+			justify-content:space-around;
+			margin-top:10%;
+		}
+			.accueilen
+			{
+				text-align:center;
+				border: 1px black solid;
+				border-radius:10px;
+				flex-basis:40%;
+				background-color:#f7f6f7;
+			}
+			
+			.accueilfr
+			{
+				text-align:center;
+				border: 1px black solid;
+				border-radius:10px;
+				flex-basis:40%;
+				background-color:#f7f6f7;
+			}
+			
+.footer
+{
+position:absolute;
+bottom:0;
+width:100%;
+height:50px;
+background-color:grey;
+text-align:center;
+position:fixed;
+}
